@@ -1,9 +1,25 @@
 #body_form{
     background-image: url('img/fundo.jpg');
 }
+body.background {
+    background-image: url(img/fundo.jpg) ;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  div.transbox {
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    margin: 10px;
+    font-weight: bold;
+  }
 #page-content{
     display: flex;
-    align-items: center;    
+    justify-content: center;
 }
 
 #canvas{
@@ -55,6 +71,9 @@ form label[for="gen"]{
 #cor{
     padding: 0;
     margin: 0;
+}
+#img_perfil{
+    transform: rotate(0.5turn);
 }
 
 
